@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Miama';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miama'), url('Miama.woff') format('woff');
+    }
+  /* header styles */
+  .header{
+    width: 100%;
+    height: 715px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+  }
+  .brand{
+    width: 132px;
+    height: 43px;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 120%;
+    text-align: left; 
+    margin: 45px 463px 0 190px;
+    /* margin-right: 463px;    */
+    color: #E6533C;
+  }
+  .nav-links{
+    display: flex;
+    width: 465px;
+    margin: 45px 190px 0 -120px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 45px;
+  }
+  .no-margin{
+    margin-right: 0;
+  }
+  .nav-link{
+    text-decoration: none;
+    color: white;
+  }
+  .nav-link-btn{
+    border: 1px solid #E6533C;
+    border-radius: 46px;
+    background-color: #E6533C;
+    width: 92px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 20px;
+  }
+  .miama{
+    font-family: 'Miama';
+    font-weight: 400;
+    font-size: 150px;
+  }
+  .banner-description{
+    margin: 0 88px 76px 190px;
+    width: 520px;
+    height: 440px;
+    padding-right: 80px;
+  }
+  .banner-h1{
+    width: 520px;
+    height: 282px;
+    font-size: 78px;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    line-height: 120%;
+    margin-bottom: 28px;
+  }
+  .banner-p{
+    color: white;
+    height: 48px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: left;
+    opacity: 0.5;
+  }
+  .banner-btn{
+    width: 462px;
+    height: 54px;
+    margin: 28px 58px 0 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-right: 58px;
+  }
+  .btn-primary{
+    height: 55px;
+    width: 225px;
+    border-radius: 42px;
+    padding: 16px 45px;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #E6533C;
+    border: 1px solid #E6533C;
+  }
+  .black{
+    background-color: #000000;
+    border: 1px solid white;
+  }
+  .banner-img{
+    margin: 42px 214px 0 0;
+  }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+  .header{
+    width: 393px;
+    height: 1024px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+  }
+  .brand{
+    margin: 52px 197px 0 20px;
+  }
+  .nav-links{
+    display: none;
+    /* width: 465px;
+    margin: 45px 190px 0 -120px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center; */
+  }
+  /* .nav-item{
+    list-style: none;
+    margin-right: 45px;
+  }
+  .no-margin{
+    margin-right: 0;
+  }
+  .nav-link{
+    text-decoration: none;
+    color: white;
+  }
+  .nav-link-btn{
+    border: 1px solid #E6533C;
+    border-radius: 46px;
+    background-color: #E6533C;
+    width: 92px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 20px;
+  } */
+  .miama{
+    font-family: 'Miama';
+    font-weight: 400;
+  }
+  .banner-description{
+    margin: 51px 20px 0;
+    width: 353px;
+    height: 335px;
+  }
+  .banner-h1{
+    width: 285px;
+    height: 129px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-right: 67px;
+    color: white;
+    text-align: left;
+    line-height: 120%;
+    margin-bottom: 28px;
+  }
+  .banner-p{
+    color: white;
+    width: 274px;
+    height: 96px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0 78px 28px 0;
+    text-align: left;
+  }
+  .banner-btn{
+    width: 352px;
+    height: 54px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 14px;
+  }
+  .btn-primary{
+    height: 54px;
+    width: 169px;
+    border-radius: 42px;
+    padding: 16px;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #E6533C;
+    border: 1px solid #E6533C;
+  }
+  .black{
+    background-color: #000000;
+    border: 1px solid white;
+
+  }
+  .banner-img{
+    height: 464px;
+    margin: 64px 56px 0;
+  }
+  .miama{
+    font-family: 'Miama';
+    font-weight: 400;
+    font-size: 70px;
+  }
+
+}
