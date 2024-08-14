@@ -515,25 +515,66 @@
   border-radius: 18px;
 }
 .mot-box-img{
-  width: 326px;
+  width: 313px;
   height: 272px;
   background: rgba(0, 0, 0, 0.2);
   /* background-color: rgba(0, 0, 0, 0.2); */
 }
-.mot-box-h5{
-  color: white;
-  line-height: 120%;
-  margin-top: -75px;
-  margin-left: 20px;
-  font-weight: 900;
-  font-size: 20px;
+/* mot end */
+/* extra-mile start*/
+.extra-mile{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 353px;
+    height: 531px;
+    margin: 0 20px;
+    justify-content: center;
 }
-.mot-box-p{
+  .extra-mile-content{
+    width: 287px;
+    height: 264px;
+    margin: 33px 31px;
+  }
+.extra-mile-description{
+  width: 100%;
+  height: 186px;
+  margin-bottom: 24px;
+}
+.extra-mile-h3{
+  height: 76px;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 0;
+  color: white;
+  text-align: left;
+}
+.extra-mile-p{
+  height: 96px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
   color: white;
   opacity: 0.5;
-  margin-top: -20px;
-  margin-left: 20px;
 }
-/* mot end */
+.extra-mile-btn{
+  width: 287px;
+  height: 54px;
+  background-color: #E6533C;
+  border-radius: 42px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  /* padding: 16px 71.5px; */
+}
+.extra-mile-img{
+  width: 287px;
+  height: 170px;
+  border-radius: 18px;
+  margin: 33px;
+}
+/* extra-mile end */
 
 }
