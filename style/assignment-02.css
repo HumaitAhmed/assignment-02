@@ -285,6 +285,126 @@
   opacity: 0.5;
 }
  /* bmi-cal end */
+
+ /* bmi start */
+ .bmi{
+  height: 487px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 175px;
+  background-color: #222222;
+ }
+ .bmi-table{
+  width: 310px;
+  height: 302px;
+  margin: 52px 0 133px 189px;
+
+ }
+ .bmi-h3{
+  height: 34px;
+  font-weight: 900;
+  font-size: 28px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 52px;
+ }
+ table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+ }
+ .table{
+  width: 310px;
+  max-height: 216px;
+ }
+ .table-tr{
+  height: 48px;
+ }
+ .table-th{
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  /* padding: 15px 0; */
+ }
+ tr{
+  height: 42px;
+ }
+ .td1{
+  /* height: 42px; */
+  width: 159px;
+  text-align: center;
+}
+ .td2{
+  /* height: 42px; */
+  width: 151px;
+  text-align: center;
+ }
+ td{
+  width: 90px;
+  color: white;
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: 400;
+ }
+.bmi-calculate{
+  width: 577px;
+  height: 386px;
+  margin: 50px 189px 50px 0;
+}
+.bmi-calculate-description{
+  height: 96px;
+}
+.bmi-calculate-h3{
+  width: 443px;
+  height: 34px;
+  line-height: 120%;
+  font-weight: 900;
+  font-size: 28px;
+  color: white;
+  margin: 0 134px 14px 0;
+}
+.bmi-calculate-p{
+  height: 48px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  opacity: 0.5;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  margin: 0;
+}
+.bmi-calculate-field{
+  height: 168px;
+  margin: 34px 0;
+}
+.bmi-calculate-btn{
+  width: 83px;
+  background: #E6533C;
+  color: white;
+  border-radius: 42px;
+  margin-right: 353px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 70.5px;
+}
+.bmi-form{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 12px;
+}
+input{
+  width: 282px;
+  height: 48px;
+  background-color: white;
+  opacity: 0.1;
+  color: white;
+}
+.area{
+  grid-template-areas: area area;
+}
+/* bmi end */
+
+
+
 /* mot start */
 .mot{
   width: 1060px;
@@ -347,6 +467,76 @@
   margin-top: -20px;
   margin-left: 20px;
 }
+/* benefits start*/
+.benefits{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 48px;
+  background-color: #222222;
+}
+.benefits-h2{
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+}
+.benefits-cardbox{
+  display: flex;
+  gap: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* justify-content: space-around; */
+}
+ .box{
+  width: 192px;
+  height: 48px;
+  background-color: #E6533C;
+  color: white;
+  border-radius: 36px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding: 72px 0;
+ }
+
+  .lower{
+    margin-left: 20%;
+  }
+.b-form{
+  width: 50%;
+  /* background-color: #222222; */
+  margin-left: 40%;
+}
+.align-left{
+  text-align: left;
+}
+.bg-col{
+  background-color: white;
+  opacity: 10%;
+}
+.bg-col2{
+  background-color: gray;
+}
+.b-form-input {
+  height: 64px;
+  border-radius: 5px;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+textarea{
+  height: 64px;
+  border-radius: 5px;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+
+
+
 /* mot end */
 /* footer start */
 .footer{
@@ -472,6 +662,8 @@
   }
   .nav-links{
     display: none;
+    position: absolute;
+
     /* width: 465px;
     margin: 45px 190px 0 -120px;
     height: 45px;
@@ -479,6 +671,7 @@
     font-weight: 400;
     align-items: center; */
   }
+
   /* .nav-item{
     list-style: none;
     margin-right: 45px;
@@ -566,7 +759,7 @@
     font-size: 70px;
   }
 main{
-  height: 6963px;
+  height: 6075px;
 }
   /* cyh start */
   .cyh{
@@ -619,10 +812,7 @@ main{
 .mot-h3{
   width: 243px;
   height: 38px;
-  font-weight: 900;
-  font-size: 32px;
-  color: white;
-  line-height: 120%;
+  font-size: 24px;
   margin: 0 33px 14px;
 }
 .mot-p{
@@ -643,15 +833,17 @@ main{
   margin: 20px;
 }
 .mot-box{
-  width: 326px;
+  width: 313px;
   height: 272px;
   border-radius: 18px;
 }
 .mot-box-img{
-  width: 313px;
   height: 272px;
   background: rgba(0, 0, 0, 0.2);
   /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.display-none{
+  display: none;
 }
 /* mot end */
 /* extra-mile start*/
@@ -729,6 +921,120 @@ main{
 
 }
  /* bmi-cal end */
+  /* bmi start */
+  .bmi{
+    width: 394px;
+    height: 772px;
+    grid-template-columns: repeat(1,1fr);
+    gap: 42px;
+    background-color: #222222;
+    margin-bottom: 66px;
+   }
+   .bmi-table{
+    height: 258px;
+    margin: 34px 64px 0 20px;
+  
+   }
+   .bmi-h3{
+    height: 19px;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 23px;
+   }
+
+   /* .td1{
+    padding: 13px 18px;
+   }
+   .td2{
+    padding: 13px 24px;
+   } */
+
+  .bmi-calculate{
+    width: 354px;
+    height: 395px;
+    margin: 0 20px;
+  }
+  .bmi-calculate-description{
+    height: 105px;
+  }
+  .bmi-calculate-h3{
+    width: 151px;
+    height: 19px;
+    line-height: 120%;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+    margin: 0 203px 14px 0;
+  }
+  .bmi-calculate-p{
+    height: 72px;
+  }
+  .bmi-calculate-field{
+    width: 353px;
+    margin: 34px 0;
+  }
+  .bmi-calculate-btn{
+    margin-right: 130px;
+  }
+  .label1{
+    grid-area: label1;
+  }
+  .label2{
+    grid-area: label2;
+  }
+  .label3{
+    grid-area: label3;
+  }
+  .label4{
+    grid-area: label4;
+  }
+  .label5{
+    grid-area: label5;
+  }
+  .bmi-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    grid-template-areas: "label1 label2" "label3 label4" "label5 label5";
+  }
+  input{
+    width: 162px;
+  }
+  /* bmi end */
+
+  /* benefits start*/
+.benefits{
+  max-width: 273px;
+  margin: 48px 12px;
+  padding-left: 96px;
+  gap: 42px;
+  padding-bottom: 24px;
+}
+.benefits-h2{
+  text-align: left;
+  margin: 0 10px;
+}
+.benefits-cardbox{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 2.5%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+  .lower{
+    margin-left: 0%;
+  }
+  .b-form{
+    width: 50%;
+    /* background-color: #222222; */
+    margin-left: 0%;
+  }
+  .bg-col2{
+    background-color: gray;
+  }
+  /* benefits end */
+
  /* footer start */
 .footer{
   width: 393px;
